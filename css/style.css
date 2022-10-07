@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.212);
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.banner {
+    background-image: url(../images/banner-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.height {
+    min-height: 100vh;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.banner h2 {
+    color: #f39c12;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.search-icon {}
+
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #f39c12;
+}
+
+.search-field {
+
+    display: none;
+
+    position: absolute;
+
+    top: 120%;
+
+    right: 0;
+}
+
+.search-field form {
+
+    position: relative;
+}
+
+.search-field form input {
+
+    padding: 3px 0 3px 10px;
+}
+
+.search {
+
+    position: absolute;
+
+    right: 3px;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    background: #f39c12;
+
+    height: 85%;
+
+    width: 30px;
+
+    color: #fff;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.navbar-nav {
+
+    position: relative;
+}
+
+.search-icon:focus .search-field {
+    display: block;
+
+
+}
+
+.banner-btn {}
+
+.btn-started {
+
+    color: #fff;
+
+    font-size: 14px;
+
+    text-transform: uppercase;
+
+    padding: 0;
+
+    padding: 10px 25px;
+
+    background: transparent;
+
+    border: 1px solid #fff;
+
+    font-weight: bold;
+}
+
+.btn-portfolio {
+
+    color: #fff;
+
+    font-size: 14px;
+
+    text-transform: uppercase;
+
+    padding: 0;
+
+    padding: 10px 25px;
+
+    background: #f39c12;
+
+    border: 1px solid #f39c12;
+
+    font-weight: bold;
+}
+
+.btn-started:hover {
+
+
+    color: #fff;
+
+    border-color: #f39c12;
+
+    background: #f39c12;
+}
+
+.btn-portfolio:hover {
+    color: #fff;
+
+    border-color: #fff;
+
+    background: transparent;
+
+}
+
+.bn-btn {
+
+    text-align: center;
+}
+
+.text-end {
+    text-align: right !important;
+    padding-top: 200px;
+}
+
+.banner-two {
+    background-image: url(../images/hiking-v1.jpg);
+}
+
+.about-me {
+
+    padding: 50px 0;
+}
+
+
+.about-me .container-fluid {
+    padding-left: 0;
+    padding-right: 50px;
+}
+
+.service-section {
+    padding: 100px 0;
+}
+
+.service {
+
+padding: 50px 30px;
+
+text-align: center;
+
+box-shadow: 0px 0px 1px 1px #d9d9d9;
+
+position: relative;
+}
+
+.service::before{
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    left: 0;
+    top: 0;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+}
+.service::after{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-top: 2px solid #f39c12;
+    border-left: 2px solid #f39c12;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.service:hover::after{
+    opacity: 1;
+}
+.service:hover{
+    background-color: #f39c12;
+    box-shadow: none;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    border-radius: 50px;
+    background: #919190;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 22px;
+}
+
+.service h3 {
+
+color: #6e6e6e;
+
+font-size: 20px;
+
+margin: 15px 0;
+}
+
+.service p {
+
+color: #6e6e6e;
+
+margin-top: 20px;
+}

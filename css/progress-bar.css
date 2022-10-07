@@ -1,0 +1,74 @@
+.progress-bar-area {
+
+    height: 100px;
+
+    position: relative;
+}
+
+.progress-bar {
+    width: 500px;
+    margin-top: 25px;
+    background-color: #ddd;
+    height: 15px;
+    /* position: relative; */
+}
+
+.progress {
+    width: 0;
+    height: 15px;
+    text-align: right;
+}
+
+.progress span {
+    font-size: 15px;
+    display: inline-block;
+    /* position: absolute; */
+    /* top: 0px; */
+    /* right: 100px; */
+    color: #fff;
+    width: 50px;
+    height: 30px;
+    padding-top: 0px;
+    padding-left: 8px;
+    font-weight: 500;
+    z-index: 999;
+}
+
+
+.span-area {
+
+background: #f39c12;
+
+height: 24px;
+
+width: 45px;
+
+display: block;
+
+position: absolute;
+
+left: 531px;
+
+bottom: 79px;
+
+display: flex;
+
+text-align: center;
+
+z-index: 1;
+
+border-radius: 2px;
+}
+
+
+.span-area::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    background: #f39c12;
+    right: 38px;
+    top: 6px;
+    transform: rotate(134deg);
+    /* z-index: 999; */
+}
