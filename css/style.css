@@ -1188,7 +1188,7 @@ padding-bottom: 11px;
 
 .follow-me-section{
 
-padding: 50px 0px;
+padding: 100px 0px;
 }
 
 
@@ -1202,6 +1202,11 @@ padding: 50px 0px;
 
 .list-items{
 
+padding-top: 60px;
+
+padding-bottom: 50px;
+
+/* margin-right: 0px; */
 }
 
 .list-items ul{
@@ -1231,4 +1236,36 @@ border: 1px solid #ededed;
 padding: 5px 5px;
     
 font-size: 20px;
+}
+
+.list-items ul li a:hover{
+    color: #fff;
+    background: #f39c12;
+}
+
+.footer-section{
+
+background: #f39c12;
+
+height: 70px;
+}
+
+.footer-text{
+
+}
+
+.footer-text p{
+    
+text-align: center;
+    
+padding-top: 25px;
+    
+font-family: 'Roboto', sans-serif;
+    
+font-weight: 600;
+}
+
+.footer-text span{
+    
+color: #fff;
 }
